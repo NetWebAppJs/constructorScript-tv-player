@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="chrome=1">
+   
+   
+
+  <title>Media Player2 for Chrome browser in  Android System</title>
+
+ <meta name="author" content="Берлин Андрей">
+ <meta name="description" content="Веб - студия: hhcjs. Здесь вы познакомитесь с веб - приложениями, полезные для жизни.">
+   
+ <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./style1.css">
+
+ <!--script  src = "https://cdn.jsdelivr.net/npm/hls.js@latest"></script--> 
+  
+
+</head>
+<body>
+
+<header>
+   <h1>HTML5/js/css Media Player with Playlist</h1>
+   <h2>Only for Chrome browser in Android system</h2>
+    <h2>Idea by Berlin Andrew</h2>
+</header>
+<section>
+  
+  <h2>The Player for video to live stream</h2>
+  <h3>TV CHANNELS<h3>
+  <h3>Enjoy:)</h3>
+
+<!--Video Player-->
+	<figure id="videoContainer" data-fullscreen="false">📺live stream 
+						<div id="video_player" class="video_player">
+							<div class="video_box">
+								<video id="video" controls preload="metadata">
+									<source src="https://rfe-lh.akamaihd.net/i/rfe_tvmc5@383630/master.m3u8" type="video/mp4">
+									<source src=".webm" type="video/mp4">  
+									<source src=".m3u8" type="video/mp4">  
+								</video>For Chrome browser in android system.
+								<div id="video-controls" class="controls" data-state="hidden">
+			<button id="playpause" type="button" data-state="play">Play/Pause</button>
+			<button id="stop" type="button" data-state="stop">Stop</button>
+			<div class="progress">
+				<progress id="progress" value="0" min="0">
+					<span id="progress-bar"></span>
+				</progress>
+			</div>
+			<button id="mute" type="button" data-state="mute">Mute/Unmute</button>
+			<button id="volinc" type="button" data-state="volup">Vol+</button>
+			<button id="voldec" type="button" data-state="voldown">Vol-</button>
+			<button id="fs" type="button" data-state="go-fullscreen">Fullscreen</button>
+		</div>
+           <h3>Playlist for Channels</h3>
+							</div>
+							<div class="video_playlist">
+                   
+								<ol>Playlist for Channels
+								
+                  <!--li><a href="https://karapuztv.fenixplustv.xyz/content/33418/index.m3u8">
+										<img src="https://i.imgur.com/2VJAK8L.jpg">
+										<div class="title">КАРАПУЗ ТВ</div>
+										<div class="time"></div>        
+									</a></li-->
+								
+								
+									<li><a href="https://rfe-lh.akamaihd.net/i/rfe_tvmc5@383630/master.m3u8">
+										<img src="https://64.media.tumblr.com/2d269bcdcdc92434d54c64dd9eb8f4fa/b3b5963f19310f89-0d/s1280x1920/3bec147fde1be3d50cede7ff70fcfa13acace896.png">
+										<div class="title">НАСТОЯЩЕЕ ВРЕМЯ</div>
+										<div class="time"> &#9654; Live Stream</div>        
+									</a></li>
+									<li><a href="https://a3569458063-s26881.cdn.ngenix.net/hls/russia_hd/playlist_4.m3u8">
+										<img src="https://64.media.tumblr.com/199074f69447b790bd249e9fc44aacd2/b452ee84d4ece36e-20/s2048x3072/c4a0eb96c51b6ca2ce58df7cfabef6fef8380760.png">
+										<div class="title">Россия 1</div>
+										<div class="time">&#9654; Live Stream</div>        
+									</a></li>
+									<!--li><a href="https://live-minidey.cdnvideo.ru/minidey/minidey.sdp/playlist.m3u8">
+										<img src="https://i.imgur.com/2VJAK8L.jpg">
+										<div class="title">МИН.ИДЕЙ</div>
+										<div class="time"></div>        
+									</a></li-->
+									<!--li><a href="https://cdn.universmotri.ru/live/hq.sdp/playlist.m3u8">
+										<img src="https://i.imgur.com/2VJAK8L.jpg">
+										<div class="title">УНИВЕР СМОТРИ</div>
+										<div class="time"></div>        
+									</a></li-->
+									<li><a href="https://hls.tv.3angels.ru/stream/HQ.m3u8">
+										<img src="https://64.media.tumblr.com/71eff53973c1c867bb6bd4af341ce395/b0e1c733ab860739-94/s500x750/e64175cf6d125e20d79df68465c714ce1b69ee53.png">
+										<div class="title">Три Ангела</div>
+										<div class="time">&#9654; Live Stream</div>        
+									</a></li>
+									
+									<li><a href="https://rutv.gcdn.co/streams/1410_95/playlist.m3u8">
+										<img src="https://64.media.tumblr.com/f4ae1cad080d757bac92b25dd93f9c15/60e8cb174db3e1bf-be/s540x810/22ffc61748f9911b19fb70e1d26c825817da18cd.jpg">
+										<div class="title">RU TV МУЗЫКА</div>
+										<div class="time">&#9654; Live Stream</div>        
+									</a></li>
+									
+		              <li><a href="https://rt-doc-gd.secure2.footprint.net/1101.m3u8">
+										<!--img src="https://i.imgur.com/2VJAK8L.jpg"-->
+										<div class="title">RT DOC (eng.)</div>
+										<div class="time"></div>        
+									</a></li>
+									
+                 <li><a href="https://rtmp.api.rt.com/hls/rtdru.m3u8">
+										<!--img src="https://i.imgur.com/2VJAK8L.jpg"-->
+										<div class="title">RT DOC (ru.)</div>
+										<div class="time"></div>        
+									</a></li>
+									
+                  <li><a href="https://live-ntm13.cdnvideo.ru/ntm13/smil:ntm13.smil/playlist.m3u8">
+										<!--img src="https://i.imgur.com/2VJAK8L.jpg"-->
+										<div class="title">НТМ</div>
+										<div class="time"></div>        
+									</a></li>
+									
+                  <li><a href="https://evronovosti.mediacdn.ru/sr1/evronovosti/playlist.m3u8">
+										<img src="https://i.imgur.com/2VJAK8L.jpg">
+										<div class="title">Euronews</div>
+										<div class="time">▶️ live stream</div>        
+									</a></li>
+                  <li><a href="https://brics.bonus-tv.ru/cdn/brics/english/tracks-v1a1/mono.m3u8">
+										<!--img src="https://i.imgur.com/2VJAK8L.jpg"-->
+										<div class="title">БРИКС ТВ (eng.)</div>
+										<div class="time"></div>        
+									</a></li>
+                  <li><a href="https://kanlivep2event-i.akamaihd.net/hls/live/747610/747610/source1_2.5k/chunklist.m3u8">
+										<!--img src="https://i.imgur.com/2VJAK8L.jpg"-->
+										<div class="title">КАН МЕДИЯ ТВ (Израиль)</div>
+										<div class="time"></div>        
+									</a></li>
+                  <li><a href="https://keshethlslive-lh.akamaihd.net/i/c2n_1@195269/master.m3u8">
+										<!--img src="https://i.imgur.com/2VJAK8L.jpg"-->
+										<div class="title">КАН МЕДИЯ ТВ (Израиль)</div>
+										<div class="time"></div>        
+									</a></li>
+                  <li><a href="https://kanlivep2event-i.akamaihd.net/hls/live/747600/747600/source1_2.5k/chunklist.m3u8">
+										<!--img src="https://i.imgur.com/2VJAK8L.jpg"-->
+										<div class="title">ДЕТСКИЙ КАНАЛ (Израиль)</div>
+										<div class="time"></div>        
+									</a></li>
+
+									  <li><a href="https://streaming.astrakhan.ru/astrakhan24/index.m3u8">
+										<!--img src="https://i.imgur.com/2VJAK8L.jpg"-->
+										<div class="title">АСТРАХАНЬ24 ТВ</div>
+										<div class="time"></div>        
+	                    						</a></li>
+         
+            	                                                              	<li><a href="https://stream.kuban24.tv:1500/hls/stream.m3u8">
+										<!--img src="https://i.imgur.com/2VJAK8L.jpg"-->
+										<div class="title">КУБАНЬ24 ТВ</div>
+										<div class="time"></div>        
+									</a></li>
+     	                                                                        <li><a href="https://a3569456481-s26881.cdn.ngenix.net/live/smil:mplan.smil/index.m3u8">
+										<!--img src="https://i.imgur.com/2VJAK8L.jpg"-->
+										<div class="title">МОЯ ПЛАНЕТА ТВ</div>
+										<div class="time"></div>        
+                      
+<li><a href="https://fash1043.cloudycdn.services/slive/_definst_/ftv_ftv_midnite_k1y_27049_midnite_secr_108_hls.smil/chunklist_b4700000_t64MTA4MHA=.m3u8?checkedby:iptvcat.com">
+										<!--img src="https://i.imgur.com/2VJAK8L.jpg"-->
+										<div class="title">FTV HD</div>
+										<div class="time"></div>        
+									</a></li>
+
+
+									</a></li>
+	<li><a href="https://a635216413-s81121.cdn.ngenix.net/_cdn_auth/secure/v/vh/vod_hls/definst/smil:vh/smil/002/158/108_d20190315164730.smil/chunklist_b1800000_pd2635000.m3u8?checkedby:iptvcat.com">
+										<!--img src="https://i.imgur.com/2VJAK8L.jpg"-->
+										<div class="title">РАДИО МАЯК</div>
+										<div class="time"></div>        
+									</a></li>
+
+		                     <li><a href="https://v3.catcast.tv/content/38105/index.m3u8">
+										<!--img src="https://i.imgur.com/2VJAK8L.jpg"-->
+										<div class="title">МУЛЬТИКИ</div>
+										<div class="time"></div>        
+									</a></li>
+
+	                             <li><a href="https://cache-1.catcast.tv/content/38821/index.m3u8">
+										<!--img src="https://i.imgur.com/2VJAK8L.jpg"-->
+										<div class="title">СССР ТВ</div>
+										<div class="time"></div>        
+									</a></li>
+  <li><a href="https://autopilot.catcast.tv/content/39161/index.m3u8">
+       <!--img src="https://i.imgur.com/2VJAK8L.jpg"-->
+       <div class="title">Примьера ТВ</div>
+       <div class="time"></div>
+     </a></li>
+
+  <li><a href="https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_3360.m3u8?denmstv.m3u8">
+   <!--img src="https://i.imgur.com/2VJAK8L.jpg"-->
+   <div class="title">Рэд Бул ТВ</div>
+   <div class="time"></div>
+   </a></li>
+
+   <li><a href="https://59d39900ebfb8.streamlock.net/streetmusic/streetmusic/playlist.m3u8">
+ <!--img src="https://i.imgur.com/2VJAK8L.jpg"-->
+ <div class="title">Канал о Жизни ТВ</div>
+ <div class="time"></div>
+ </a></li>				
+
+
+
+
+								</ol>
+							</div>
+						</div>
+						<!--Video Player JS-->
+						<!--<script src="js/video_player.js"></script>-->
+						<!--End Video Player-->
+
+<!-- partial -->
+
+<!--script>
+  var video = document.getElementById('video');
+  var videoSrc = document.querySelector('a');
+
+  if (Hls.isSupported()) {
+    var hls = new Hls();
+    hls.loadSource(videoSrc);
+    hls.attachMedia(video);
+  }
+  // hls.js is not supported on platforms that do not have Media Source
+  // Extensions (MSE) enabled.
+  //
+  // When the browser has built-in HLS support (check using `canPlayType`),
+  // we can provide an HLS manifest (i.e. .m3u8 URL) directly to the video
+  // element through the `src` property. This is using the built-in support
+  // of the plain video element, without using hls.js.
+  //
+  // Note: it would be more normal to wait on the 'canplay' event below however
+  // on Safari (where you are most likely to find built-in HLS support) the
+  // video.src URL must be on the user-driven white-list before a 'canplay'
+  // event will be emitted; the last video event that can be reliably
+  // listened-for when the URL is not on the white-list is 'loadedmetadata'.
+  else if (video.canPlayType('application/vnd.apple.mpegurl')) {
+    video.src = videoSrc;
+  }
+</script-->
+
+
+</figure>
+  
+ <ul>
+<li>
+   <b>Домашняя страница:</b>
+  <a class= "button" href="https://berlinandrew.github.io/index.html">
+     <strong>▶️ "Веб - страница Берлина Андрея".
+     </strong>
+     </a> Добро пожаловать!
+</li>
+<br>
+<!--li> 
+     <b>Веб - студия:</b>
+     <a class= "button" href="https://berlinandrew.github.io/studio-hhcjs.html">
+     <strong>"hhcjs".
+     </strong>
+     </a>
+     Добро пожаловать!
+
+
+ </li-->
+</ul>
+
+</section>
+<footer>
+        <br>
+        <h2>Автор идеи: Берлин Андрей</h2>
+        <br>
+       <p><em>Я стремлюсь к созданию веб приложений, которые можно применить к повседневной жизни.</em></p>
+   
+   <h3>Контакты</h3>
+   <ul>
+     <li>
+       <address>
+     По всем техническим вопросам пишите мне:<a href="mailto:andrew.berlin96@gmail.com"> на мой электронный адрес</a>.
+      </address>
+     </li>
+
+     
+     <li>Project maintained by <a href="https://berlinandrew.github.io/">Berlin Andrew</a></li>
+     <li>Hosted on GitHub Pages: <a href="https://github.com/berlinandrew">berlinandrew</a></li>
+   </ul>
+</footer>
+</body>
+
+  <script  src="./script-playlist.js"></script>
+	<script src="./script-player.js"></script>
+
+</html>
