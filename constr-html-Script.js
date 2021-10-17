@@ -174,13 +174,13 @@ html.innerHTML = ` <h2>The Player for video to live stream</h2>
                                     </a>
                                 </li>
 
-                                <li>
+                                <!--li>
                                     <a href="https://v3.catcast.tv/content/38105/index.m3u8">
                                         <img src="https://i.imgur.com/2VJAK8L.jpg">
                                         <div class="title">МУЛЬТИКИ</div>
                                         <div class="time">▶️ Live Stream</div>
                                     </a>
-                                </li>
+                                </li-->
 
                                 <li>
                                     <a href="https://cache-1.catcast.tv/content/38821/index.m3u8">
