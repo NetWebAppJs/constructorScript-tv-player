@@ -138,7 +138,7 @@ html.innerHTML = ` <h2>The Player for video to live stream</h2>
                                     <a href="https://streaming.astrakhan.ru/astrakhan24/index.m3u8">
                                         <img src="https://64.media.tumblr.com/9804cc7ebe0e099fc3ebd0547517f02c/d9805d123a97b389-bc/s250x400/b0cd5c548ee87a62d4178c2e5a1dc79fd33bd81f.png">
                                         <div class="title">АСТРАХАНЬ24 ТВ</div>
-                                        <div class="time"></div>
+                                        <div class="time">▶️ Live Stream</div>
                                     </a>
                                 </li>
 
@@ -166,13 +166,13 @@ html.innerHTML = ` <h2>The Player for video to live stream</h2>
 
                                     </a>
                                 </li>
-                                <!--li>
-                                    <a href="https://a635216413-s81121.cdn.ngenix.net/_cdn_auth/secure/v/vh/vod_hls/definst/smil:vh/smil/002/158/108_d20190315164730.smil/chunklist_b1800000_pd2635000.m3u8?checkedby:iptvcat.com">
-                                        <img src="https://i.imgur.com/2VJAK8L.jpg">
-                                        <div class="title">РАДИО МАЯК</div>
+                                <li>
+                                    <a href="https://video1.in-news.ru/360/index.m3u8">
+                                        <img src="https://64.media.tumblr.com/57bb6606cae7e448f58e38ee77a9c5b5/71f0fd652bcb76f9-c3/s1280x1920/f2878b6b6d1238d0364752fd6a17c4d512ffec96.pnj">
+                                        <div class="title">360 TV</div>
                                         <div class="time"></div>
                                     </a>
-                                </li-->
+                                </li>
 
                                 <li>
                                     <a href="https://v3.catcast.tv/content/38105/index.m3u8">
@@ -209,7 +209,7 @@ html.innerHTML = ` <h2>The Player for video to live stream</h2>
                                     <a href="https://59d39900ebfb8.streamlock.net/streetmusic/streetmusic/playlist.m3u8">
                                         <img src="https://64.media.tumblr.com/9dae1ea9277354eff56a6cf9c9eb2c82/b1a12c07c50e04d8-a5/s1280x1920/5fb7797eb583b7418343a05a9ff3feced5726b01.jpg">
                                         <div class="title">StreetMusic ТВ</div>
-                                        <div class="time"></div>
+                                        <div class="time">▶️ Live Stream</div>
                                     </a>
                                 </li>
 
