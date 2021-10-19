@@ -18,7 +18,7 @@ html.innerHTML = ` <h2>The Player for video to live stream</h2>
                         <button id="stop" type="button" data-state="stop">Stop</button>
                         <div class="progress">
                             <progress id="progress" value="0" min="0">
-            <span id="progress-bar">📺live stream</span>
+            <span id="progress-bar"></span>
         </progress>
                         </div>
                         <button id="mute" type="button" data-state="mute">Mute/Unmute</button>
