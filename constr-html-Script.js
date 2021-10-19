@@ -8,7 +8,7 @@ html.innerHTML = ` <h2>The Player for video to live stream</h2>
         <figure id="videoContainer" data-fullscreen="false">
             <div id="video_player" class="video_player">
                 <div class="video_box">
-                    <video id="video" controls preload="metadata">📺live stream
+                    <video id="video" controls preload="metadata">
                             <source src="https://rfe-lh.akamaihd.net/i/rfe_tvmc5@383630/master.m3u8" type="video/mp4">
                             <!--source src=".webm" type="video/mp4">  
                             <source src=".m3u8" type="video/mp4"-->  
@@ -18,7 +18,7 @@ html.innerHTML = ` <h2>The Player for video to live stream</h2>
                         <button id="stop" type="button" data-state="stop">Stop</button>
                         <div class="progress">
                             <progress id="progress" value="0" min="0">
-            <span id="progress-bar"></span>
+            <span id="progress-bar">📺live stream</span>
         </progress>
                         </div>
                         <button id="mute" type="button" data-state="mute">Mute/Unmute</button>
