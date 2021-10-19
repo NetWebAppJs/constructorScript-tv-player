@@ -5,7 +5,7 @@ html.innerHTML = ` <h2>The Player for video to live stream</h2>
         <h3>Enjoy:)</h3>
 
         <!--Video Player-->
-        <figure id="videoContainer" data-fullscreen="false">📺live stream
+        <figure id="videoContainer" data-fullscreen="false">
             <div id="video_player" class="video_player">
                 <div class="video_box">
                     <video id="video" controls preload="metadata">
@@ -24,7 +24,7 @@ html.innerHTML = ` <h2>The Player for video to live stream</h2>
                         <button id="mute" type="button" data-state="mute">Mute/Unmute</button>
                         <button id="volinc" type="button" data-state="volup">Vol+</button>
                         <button id="voldec" type="button" data-state="voldown">Vol-</button>
-                        <button id="fs" type="button" data-state="go-fullscreen">Fullscreen</button>
+                        <button id="fs" type="button" data-state="go-fullscreen">Fullscreen</button>📺live stream
                     </div>
                     <h3>Playlist for Channels</h3>
                 </div>
