@@ -170,7 +170,7 @@ html.innerHTML = ` <h2>The Player for video to live stream</h2>
                                     <a href="https://video1.in-news.ru/360/index.m3u8">
                                         <img src="https://64.media.tumblr.com/57bb6606cae7e448f58e38ee77a9c5b5/71f0fd652bcb76f9-c3/s1280x1920/f2878b6b6d1238d0364752fd6a17c4d512ffec96.pnj">
                                         <div class="title">360 TV</div>
-                                        <div class="time"></div>
+                                        <div class="time">▶️ Live Stream</div>
                                     </a>
                                 </li>
 
