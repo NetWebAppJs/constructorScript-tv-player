@@ -19,7 +19,7 @@ let channels = {
   kanHin:"https://kanlivep2event-i.akamaihd.net/hls/live/747600/747600/source1_2.5k/chunklist.m3u8",
   astrAhan:"https://streaming.astrakhan.ru/astrakhan24/index.m3u8",
   kub24:"https://stream.kuban24.tv:1500/hls/stream.m3u8",
-  moyaPlan:"https://a3569456481-s26881.cdn.ngenix.net/live/smil:mplan.smil/index.m3u8",
+  /*moyaPlan:"https://a3569456481-s26881.cdn.ngenix.net/live/smil:mplan.smil/index.m3u8",*/
   fTv:"https://fash1043.cloudycdn.services/slive/_definst_/ftv_ftv_midnite_k1y_27049_midnite_secr_108_hls.smil/chunklist_b4700000_t64MTA4MHA=.m3u8?checkedby:iptvcat.com",
   tv360:"https://video1.in-news.ru/360/index.m3u8",
   sssR:"https://cache-1.catcast.tv/content/38821/index.m3u8",
@@ -70,8 +70,8 @@ a12.href = channels.astrAhan;
 let a13 = document.getElementById("kub24");
 a13.href = channels.kub24;
 
-let a14 = document.getElementById("moyaPlan");
-a14.href = channels.moyaPlan;
+/*let a14 = document.getElementById("moyaPlan");
+a14.href = channels.moyaPlan;*/
 
 let a15 = document.getElementById("fTv");
 a15.href = channels.fTv;
