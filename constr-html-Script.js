@@ -51,7 +51,7 @@ html.innerHTML = `<h2>The Player for video to live stream</h2>
             <div class="title">МИН.ИДЕЙ</div>
             <div class="time">▶️ Live Stream</div>
           </a>
-          </li-->
+          </li>
           <li>
             <a id="УНИВЕР СМОТРИ" href="">
               <img src="https://64.media.tumblr.com/84695772ce8a2fd88c8e15191344be00/a113fb0c6471db80-89/s500x750/5a5e69b158900eebcefb11086ce73b0df6430c12.png">
@@ -117,7 +117,7 @@ html.innerHTML = `<h2>The Player for video to live stream</h2>
               <div class="title">Kan 11 (Израиль)</div>
               <div class="time">▶️ Live Stream</div>
             </a>
-            </li-->
+            </li>
             <li>
               <a id="n12" href="">
                 <img src="https://64.media.tumblr.com/f06646ec51db4558f0f91e27d21cbe3c/2ee29eae85b1ec46-24/s540x810/6b0b79fe4dce7a868a821d81b573ae88bbd6d55f.png">
