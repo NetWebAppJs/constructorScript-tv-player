@@ -224,7 +224,7 @@ html.innerHTML = `<h2>The Player for video to live stream</h2>
 <ul>
   <li>
     <b>Домашняя страница:</b>
-    <a class="button" href="https://berlinandrew.github.io/index.html">
+    <a class="button" href="https://html-css-js-node.github.io/iam.html#">
       <strong>▶️ "Веб - страница Берлина Андрея".
 </strong>
     </a> Добро пожаловать!
